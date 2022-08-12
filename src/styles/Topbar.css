@@ -1,0 +1,30 @@
+
+  .menu-1{
+    font-family : "GmarketSansMedium";
+    text-underline-position: under;
+  }
+  
+  .btn-go-submit{
+    font-family : "GmarketSansMedium";
+    text-underline-position: under;
+  }
+  .con{
+    width:1080px;
+  }
+  .menu-1 > ul > li > a {
+    position: relative;
+  }
+  .menu-1 > ul > li > a::after {
+    content:"";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width:0;
+    height:4px;
+    background-color:black;
+    transition: width .3s;
+  }
+  .menu-1 > ul > li:hover > a::after {
+    width:100%;
+    }
+  

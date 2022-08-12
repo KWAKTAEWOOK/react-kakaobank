@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url(../src/font/GmarketSansBold.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+  @font-face {
+    font-family: "GmarketSansLight";
+    src: url(./font/GmarketSansLight.otf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: "GmarketSansMedium";
+    src: url(../src/font/GmarketSansMedium.otf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
