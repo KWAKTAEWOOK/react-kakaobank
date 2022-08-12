@@ -8,8 +8,21 @@
     font-family : "GmarketSansMedium";
     text-underline-position: under;
   }
+  html > body{
+    font-family : 'GmarketSansMedium';
+    text-underline-position: under;
+  }
+  body{
+    background-color:#afafaf;
+  }
   .con{
     width:1080px;
+  }
+  .con-min-width{
+    min-width:1080px;
+  }
+  .top-bar{
+    position: relative;
   }
   .menu-1 > ul > li > a {
     position: relative;
@@ -26,5 +39,33 @@
   }
   .menu-1 > ul > li:hover > a::after {
     width:100%;
-    }
+  }
+
+  .menu-1 > ul > li > div {
+    position:absolute;
+    display:none;
+    left:0;
+    top:100%;
+    width:100%;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:white;
+    transform: translatey(2px);
+  }
   
+.menu-1 > ul > li:hover > div{
+  display:block;
+}
+.menu-1 > ul > li > div ul > li > a {
+  display:block;
+  text-align: center;
+}
+
+.menu-2 > li > a{
+  font-size:23px;
+  padding:20px 0px;
+}
+.menu-2 > li > ul > li > a{
+  padding: 10px 0px;
+  font-size: 18px;
+}
