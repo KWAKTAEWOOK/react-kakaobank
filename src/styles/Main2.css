@@ -1,0 +1,18 @@
+.ico_arr {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+    position: absolute;
+    top:87%;
+    left: 42%;
+}
+ .main-content2{
+    position:absolute; 
+     width:500px;
+     top:300px;
+     left:57%;
+     z-index: 2;
+   }
+
+ 

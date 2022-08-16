@@ -5,14 +5,14 @@ import "../styles/Topbar.css";
 const Topbar = () => {
     return (
         <div className="Topbar">
-            <header class="top-bar h-[81px] border-b-[1px] bg-white">
+            <header class="top-bar con-min-width h-[81px] border-b-[1px] bg-white">
   <div class="con mx-auto h-full flex">
     <a href="#!" class="flex items-center px-[10px] mr-auto">
     <img src={kakaobank_logo} /> </a>
     <nav class="menu-1">  
       <ul class="flex h-full">
         <li>
-          <a href="#" class="flex h-full items-center px-[10px] hover:underline">은행소개</a>
+          <a href="#" class="flex h-full items-center px-[10px] ">은행소개</a>
           <div class="con-min-width">
             <div class="con mx-auto">
               <ul class="menu-2 flex">
@@ -159,7 +159,7 @@ const Topbar = () => {
           <a href="#" class="flex h-full items-center px-[10px] hover:underline">고객센터</a>
             <div class="con-min-width">
             <div class="con mx-auto">
-              <ul class="menu-2 flex">
+              <ul class="menu-2 flex ">
                 <li class=" flex-1">
                   <a href="#">이용안내</a>
                   <ul>

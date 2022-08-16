@@ -12,9 +12,6 @@
     font-family : 'GmarketSansMedium';
     text-underline-position: under;
   }
-  body{
-    background-color:#afafaf;
-  }
   .con{
     width:1080px;
   }
@@ -50,7 +47,8 @@
     padding-top:40px;
     padding-bottom:40px;
     background-color:white;
-    transform: translatey(2px);
+    transform: translatey(1px);
+    z-index: 3;
   }
   
 .menu-1 > ul > li:hover > div{
@@ -65,7 +63,15 @@
   font-size:23px;
   padding:20px 0px;
 }
+.menu-2 > li > a:hover{
+  font-size:23px;
+  padding:20px 0px;
+  text-decoration:underline;
+}
 .menu-2 > li > ul > li > a{
   padding: 10px 0px;
   font-size: 18px;
+}
+.menu-2 > li > ul > li:hover > a{
+  text-decoration:underline;
 }
