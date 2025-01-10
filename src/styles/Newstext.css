@@ -1,0 +1,50 @@
+body .board_view .view_tit {
+  font-weight: bold;
+  font-size: 17px;
+}
+.board_view .view_tit {
+  position: relative;
+  padding: 25px 130px 26px 24px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #e2e2e2;
+}
+.board_view .txt_date {
+  position: absolute;
+  top: 26px;
+  right: 23px;
+  font-weight: normal;
+  font-size: 13px;
+  color: #888;
+}
+.board_view .view_cont {
+  padding: 40px 34px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.board_btn {
+  position: relative;
+  height: 60px;
+  background-color: #fafafa;
+}
+.board_view {
+  background-color: #f4f4f4;
+}
+
+.view_cont1 {
+  min-height: 600px;
+  height: auto;
+  font-size: 14px;
+  padding: 40px 34px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.remove {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  margin-left: 875px;
+  margin-top: 20px;
+}

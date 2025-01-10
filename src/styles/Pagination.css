@@ -1,0 +1,37 @@
+.pagebut {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin: 16px;
+  margin-left: 470px;
+}
+.pagebut1 {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0;
+  background: rgb(120, 126, 131, 00.2); /*글씨 배경색*/
+  color: black; /*글씨색상*/
+  font-size: 1rem;
+}
+
+.pagebut1:hover {
+  background: tomato; /*페이지네이션 마우스포인트 호버색상*/
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+.pagebut1[disabled] {
+  background: rgb(120, 126, 131, 0.12); /*더이상못가는 화살표 배경색*/
+  cursor: revert;
+  transform: revert;
+  color: white;
+}
+.pagebut1[aria-current] {
+  background: rgb(120, 126, 131, 0.5);
+  font-weight: bold;
+  cursor: revert;
+  transform: revert;
+  font-size: 1.2rem;
+}

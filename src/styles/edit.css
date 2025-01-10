@@ -1,0 +1,51 @@
+.NewsInsert {
+  display: flex;
+  justify-content: center;
+}
+.NewsInsert input {
+  width: 80%;
+  background: none;
+  outline: none;
+  border: 2px solid rgb(120, 126, 131, 00.2);
+  border-radius: 3%;
+  padding: 0;
+  font-size: 1.125rem;
+  color: black;
+  padding-left: 30px;
+}
+.submit {
+  background: #868e96;
+  color: black;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s background ease-in;
+  border: 2px solid rgb(120, 126, 131, 00.2);
+  border-radius: 8%;
+  margin-left: 78%;
+  margin-top: 30px;
+}
+.NewsInsert-body {
+  display: flex;
+  justify-content: center;
+}
+.NewsInsert-body input {
+  margin-top: 30px;
+  width: 80%;
+  height: 500px;
+  background: none;
+  outline: none;
+  border: 2px solid rgb(120, 126, 131, 00.2);
+  border-radius: 3%;
+  padding-bottom: 40%;
+  padding-left: 30px;
+  font-size: 1.125rem;
+  color: black;
+  text-align: none;
+  box-sizing: border-box;
+}
+textarea {
+  resize: none;
+}

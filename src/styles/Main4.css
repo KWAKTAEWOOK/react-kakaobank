@@ -1,0 +1,87 @@
+.loan-box > .con {
+  position: relative;
+}
+.con {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.con-min-width {
+  min-width: 1080px;
+}
+
+.checkcard-box {
+  padding-top: 150px;
+}
+.checkcard-box > .con > .des {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #666;
+}
+.checkcard-box .btn-box {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.checkcard-box .btn-box > a {
+  display: flex;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  border-radius: 10px;
+}
+.checkcard-box .btn-box > a::after {
+  content: " >";
+  margin-left: 10px;
+}
+.checkcard-box .btn-box > a:hover > span {
+  text-decoration: underline;
+}
+/* 체크 카드 구현 시작  */
+
+.checkcard-box .slider-box-1 {
+  margin-top: 120px;
+  position: relative;
+}
+
+.checkcard-box .slider-box-1 > .slides {
+  display: flex;
+  justify-content: center;
+}
+
+.checkcard-box .slider-box-1 > .slides > div > img:first-child {
+  display: block;
+  width: 240px;
+}
+
+.checkcard-box .slider-box-1 > .slides > div.center {
+  margin-left: -100px;
+  margin-right: -100px;
+  z-index: 1;
+}
+
+.checkcard-box .slider-box-1 > .slides > div.center > img {
+  transform: scale(1.2);
+}
+
+.checkcard-box .slider-box-1 > .arrows > div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+  cursor: pointer;
+}
+
+.checkcard-box .slider-box-1 > .arrows > div:active {
+  transform: translateY(-40%);
+}
+
+.checkcard-box .slider-box-1 > .arrows > div:last-child {
+  left: auto;
+  right: 30px;
+}
+
+/* 체크 카드 구현 끝  */

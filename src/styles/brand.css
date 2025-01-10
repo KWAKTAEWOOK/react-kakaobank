@@ -1,0 +1,29 @@
+.module_content {
+  height: 100%;
+  position: relative;
+}
+
+.bank_intro .tit_intro {
+  padding: 103px 0 24px;
+  font-weight: 200;
+  font-size: 38px;
+  line-height: 51px;
+  text-align: center;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+div {
+  display: block;
+}
+.bank_intro .tit_intro {
+  padding: 103px 0 24px;
+  font-weight: 200;
+  font-size: 38px;
+  line-height: 51px;
+  text-align: center;
+}

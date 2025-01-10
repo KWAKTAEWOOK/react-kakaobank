@@ -1,48 +1,50 @@
-
 html > body {
-	font-family: 'GmarketSansMedium';
-	text-underline-position: under;
-}
-.con {
-	width: 1080px;
-}
-.con-2{
- width:1080px; 
-  position:relative;
-}
-.section-1 {
-	position: relative;
+  font-family: "GmarketSansMedium";
+  text-underline-position: under;
 }
 
-.section-1 > .con-2 {
-	background-image: url(/public/images/main-bg3.png);
-	width: 1200px;
-	background-size: 1200px;
-    z-index: 1;
+.con {
+  width: 1080px;
+}
+
+.con-min-width {
+  min-width: 1200px;
+}
+.section {
+  position: relative;
+}
+
+.section > .con-2 {
+  background-image: url(/public/images/main-bg3.png);
+  width: 1200px;
+  background-size: 1220px;
+  background-position: center 70px;
+  z-index: 5;
 }
 
 .background-line {
-	background-color: #ffef6b;
-	position: absolute;
-	top: 0;
-	z-index: -1;
+  background-color: #ffef6b;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
-.main-content{
- position:absolute; 
-  width:383px;
-  top:150px;
-  left:17%;
+.main-content {
+  position: absolute;
+  width: 383px;
+  top: 175px;
+  left: 18%;
   z-index: 2;
 }
 
-.main-content .link-store .img-kabang{
-   background-image: url(/public/images/img_kabang_220615.png);
+.main-content .link-store .img-kabang {
+  background-image: url(/public/images/img_kabang_220615.png);
   width: 24px;
   height: 24px;
   margin: -4px 10px 0 0;
   background-position: -341px -292px;
+  z-index: 99;
 }
 
-.main-content .link-store .ico-app{
-    background-position: -371px -292px;
-};
+.main-content .link-store .ico-app {
+  background-position: -371px -292px;
+}

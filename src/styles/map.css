@@ -1,0 +1,114 @@
+.map-manu {
+  width: calc(100% - 40px);
+  padding: 135px 0px 240px;
+  display: block;
+  width: 100%;
+}
+
+.tit_cont .tit_br {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.tit_cont {
+  padding: 51px 0 33px;
+  font-size: 27px;
+}
+.tit_br {
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 60px;
+}
+.module_content {
+  height: 100%;
+  position: relative;
+}
+.bank_location {
+  overflow: hidden;
+  padding-top: 15px;
+}
+.bank_location .tit_location {
+  display: block;
+  font-size: 19px;
+}
+strong {
+  font-style: normal;
+  font-weight: normal;
+}
+.bank_location .list_location {
+  padding: 17px 0 31px;
+}
+.bank_location ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.map-bar .map-txt-box {
+  background-color: aqua;
+  text-align: center;
+  width: 1080px;
+  height: 125px;
+}
+
+.map-bar .map-txt-box h3 {
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 60px;
+}
+.bank_location .tit_info {
+  padding-right: 25px;
+  color: #000;
+}
+.bank_location .tit_location2 {
+  padding-top: 94px;
+}
+
+.kb {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+/* /=================================== */
+.label {
+  display: flex;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  background:none;
+
+}
+
+
+.label .center {
+  background: url(https://t1.daumcdn.net/localimg/localimages/07/2011/map/storeview/tip_bg.png)
+    repeat-x;
+  display: inline-block;
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.label .left {
+  background: url(https://t1.daumcdn.net/localimg/localimages/07/2011/map/storeview/tip_l.png)
+    no-repeat;
+  display: inline-block;
+  height: 24px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 7px;
+}
+.label > .right {
+  background: url(https://t1.daumcdn.net/localimg/localimages/07/2011/map/storeview/tip_r.png) -1px
+    0 no-repeat;
+  display: inline-block;
+  height: 24px;
+  overflow: hidden;
+  width: 6px;
+}

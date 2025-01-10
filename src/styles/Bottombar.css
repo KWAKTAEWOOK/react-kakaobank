@@ -1,0 +1,102 @@
+.con-min-width1 {
+  min-width: 1200px;
+}
+
+.con {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 하단 바 구현 시작 */
+
+.bottom-bar {
+  background-color: #eee;
+  padding: 20px 0;
+  font-size: 11px;
+}
+.bottom-bar .box-1 {
+  color: #666;
+}
+
+.bottom-bar .box-1 .menu-1 ul > li > a {
+  padding: 4px 0;
+  position: relative;
+  font-size: 12px;
+}
+.bottom-bar
+  .box-1
+  .menu-1
+  ul
+  > li:not(:nth-child(10)):not(:first-child)
+  > .txt_bar::after {
+  content: "";
+  position: relative;
+  width: 1px;
+  height: 10px;
+  float: left;
+  background-color: #d8d8d8;
+  margin: 8px 4px 0;
+  top: -20%;
+  text-align: center;
+}
+
+.bottom-bar .box-2 {
+  margin-top: 20px;
+  color: #888;
+  font-family: "돋움", dotum, sans-serif;
+}
+.bottom-bar .box-2 > span {
+  padding: 0 3px;
+  font-size: 12px;
+}
+
+.bottom-bar .box-2 .copyright {
+  font-weight: bold;
+  font-size: 11px;
+  color: #888;
+  margin-top: 4px;
+  padding: 0 3px;
+}
+
+.bottom-bar .box-3 {
+  margin-top: 15px;
+}
+
+.bottom-bar .box-3 .auth-mark {
+  margin-left: 1px;
+}
+
+.bottom-bar .box-3 .auth-mark > img {
+  width: 48px;
+  height: 32px;
+}
+.bottom-bar .box-3 .auth-mark > span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  margin-left: 8px;
+}
+
+.ico-2 {
+  background-image: url(/public/images/ico_sns.png);
+  width: 24px;
+  height: 24px;
+}
+
+.ico-2.ico-2-facebook {
+  background-position: 0 -90px;
+}
+
+.ico-2.ico-2-instagram {
+  background-position: -191px -138px;
+}
+
+.ico-2.ico-2-youtube {
+  background-position: -90px -90px;
+}
+
+.ico-2.ico-2-brunch {
+  background-position: -217px -138px;
+}
+/* 하단 바 구현 끝 */

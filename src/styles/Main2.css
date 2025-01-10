@@ -1,18 +1,196 @@
-.ico_arr {
-    display: inline-block;
-    width: 6px;
-    height: 9px;
-    margin: 5.5px 0 0 8px;
-    position: absolute;
-    top:87%;
-    left: 42%;
+.con {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
- .main-content2{
-    position:absolute; 
-     width:500px;
-     top:300px;
-     left:57%;
-     z-index: 2;
-   }
 
- 
+.con-min-width {
+  min-width: 1080px;
+}
+/* 상단 배너박스 타입 1 시작 */
+.top-banner-box-type-1 {
+  min-height: 500px;
+  display: flex;
+}
+
+.top-banner-box-type-1 > div:first-child {
+  width: 55%;
+  display: flex;
+  align-items: center;
+}
+
+.top-banner-box-type-1 > div:last-child {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.top-banner-box-type-1 .txt-box > h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.top-banner-box-type-1 .txt-box > .des {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box {
+  display: flex;
+  margin-top: 40px;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 10px;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box > a::after {
+  content: ">";
+  margin-left: 10px;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box > a:hover > span {
+  text-decoration: underline;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box > a:not(:only-child) {
+  width: 158px;
+}
+
+.top-banner-box-type-1 .txt-box > .btn-box > a:not(:last-child) {
+  margin-right: 5px;
+}
+
+.top-baneer-box-type-1__between-pad {
+  height: 20px;
+  background-color: #fafafa;
+}
+/* 상단 배너박스 타입 1 끝 */
+
+/* 상단 배너박스 2 시작 */
+.top-banner-box-2 > div:first-child > * {
+  margin-left: 50px;
+}
+.top-banner-box-2 > div:last-child > * {
+  margin-left: 40px;
+}
+.top-banner-box-2 .img-box {
+  width: 473px;
+}
+
+/* 상단 배너박스 2 끝 */
+
+/* 상단 배너박스 3 시작 */
+.top-banner-box-3 > div:first-child > * {
+  margin-left: 83px;
+}
+.top-banner-box-3 > div:last-child > * {
+  margin-left: 80px;
+}
+.top-banner-box-3 .img-box {
+  width: 409px;
+  height: 722px;
+}
+
+.top-banner-box-3 .img-box-1 {
+  margin-top: 50px;
+}
+
+.top-banner-box-3 .img-box-1 > img {
+  width: 440px;
+}
+/* 상단 배너박스 3 끝 */
+
+/* 상단 배너박스 4 시작 */
+.top-banner-box-4 > div:first-child > * {
+  margin-left: 70px;
+}
+.top-banner-box-4 > div:last-child > * {
+  margin-left: 40px;
+}
+
+.top-banner-box-4 .img-box {
+  width: 459px;
+}
+/* 상단 배너 박스 4 끝 */
+/* 상단 배너 박스 5 시작 */
+.top-banner-box-5 > div:first-child > * {
+  margin-left: 140px;
+}
+.top-banner-box-5 > div:last-child > * {
+  margin-left: -10px;
+}
+.top-banner-box-5 .img-box {
+  width: 492px;
+}
+/* 상단 배너 박스 5 끝 */
+
+/* 상단 배너 박스 6 시작 */
+.top-banner-box-6 > div:first-child > * {
+  margin-left: 80px;
+}
+.top-banner-box-6 > div:last-child > * {
+  margin-left: 40px;
+}
+.top-banner-box-6 .img-box {
+  width: 408px;
+  height: 715px;
+}
+.top-banner-box-6-wrap {
+  background-image: url(/public/images/메인bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+/* 상단 배너 박스 6 끝 */
+/* 이미지 애니메이션 */
+/* .top-banner-box-3 .img-box > img {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    transition-timing-function: cubic-bezier(0.6, 0.2, 0.1, 1) 0.5s,
+      opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0.5s;
+    opacity: 0;
+    transform: translateX(10%);
+    margin-left: 10%;
+    width: 300%;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+.top-banner-box-6 .img-box > img {
+  animation-duration: 1s;
+  animation-name: slidein1;
+
+  opacity: 1;
+}
+
+@keyframes slidein1 {
+  from {
+    transition-timing-function: cubic-bezier(0.6, 0.2, 0.1, 1);
+    opacity: 0;
+    margin-top: 50%;
+    width: 300%;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+} */

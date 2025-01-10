@@ -1,0 +1,201 @@
+/* 백그라운드 블럭생성 */
+.loan-box > .con {
+  z-index: 1;
+  position: relative;
+}
+.loan-box > .sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.loan-box > .sky > .blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #559cde;
+  transition: height 0.7s;
+}
+
+.loan-box {
+  position: relative;
+  z-index: 0;
+  color: white;
+  padding-top: 150px;
+}
+.con {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.con-min-width {
+  min-width: 1080px;
+}
+
+.loan-box:hover > .sky > .blue {
+  height: 0;
+}
+
+.loan-box > .sky > .moon {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  left: calc(50% + 450px);
+  top: 195px;
+  overflow: hidden;
+}
+.loan-box > .sky > .moon > .base {
+  width: 110px;
+  height: 110px;
+  background-color: #ffdc00;
+  border-radius: 50%;
+  transition: background-color 1s;
+}
+.loan-box:hover > .sky > .moon > .base {
+  background-color: white;
+}
+.loan-box > .sky > .moon > .shadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  border-radius: 50%;
+  transition: top 0.7s 0.3s, left 0.7s 0.3s;
+}
+.loan-box:hover > .sky > .moon > .shadow {
+  top: -23%;
+  left: -23%;
+  background-color: #333b58;
+}
+/* 별 만들기 */
+
+.loan-box > .sky .ico-star {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.loan-box > .sky .ico-star-1 {
+  top: 30%;
+  left: 10%;
+}
+
+.loan-box > .sky .ico-star-2 {
+  top: 10%;
+  left: 20%;
+}
+
+.loan-box > .sky .ico-star-3 {
+  top: 25%;
+  left: 15%;
+}
+
+.loan-box > .sky .ico-star-4 {
+  top: 40%;
+  right: 15%;
+}
+
+.loan-box > .sky .ico-star-5 {
+  top: 43%;
+  right: 30%;
+}
+
+.loan-box > .sky .ico-star-6 {
+  top: 73%;
+  right: 27%;
+}
+
+.loan-box > .sky .ico-star-7 {
+  top: 65%;
+  left: 22%;
+}
+
+@keyframes clittering {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.loan-box > .sky .ico-star-1 {
+  animation: clittering 2s infinite;
+}
+
+.loan-box > .sky .ico-star-2 {
+  animation: clittering 3s infinite;
+}
+
+.loan-box > .sky .ico-star-3 {
+  animation: clittering 5s infinite;
+}
+
+.loan-box > .sky .ico-star-4 {
+  animation: clittering 2s infinite;
+}
+
+.loan-box > .sky .ico-star-5 {
+  animation: clittering 4s infinite;
+}
+
+.loan-box > .sky .ico-star-6 {
+  animation: clittering 1.8s infinite;
+}
+
+.loan-box > .sky .ico-star-7 {
+  animation: clittering 3.5s infinite;
+}
+/* 대출박스 */
+.loan-box > .con > .menu-box-1 {
+  margin-top: 20px;
+}
+
+.loan-box > .con > .menu-box-1 > ul > li {
+  margin: 0 3px;
+}
+
+.loan-box > .con > .menu-box-1 > ul > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 166px;
+  height: 52px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.09);
+  padding-top: 4px;
+}
+
+.loan-box > .con > .menu-box-1 > ul > li:hover > a > span {
+  text-decoration: underline;
+}
+
+.loan-box > .con > .menu-box-1 > ul > li > a::after {
+  content: " >";
+  font-size: 6px;
+  margin-left: 8px;
+}
+
+.loan-box > .con > .img-box-1 {
+  margin-top: 20px;
+}
+
+.loan-box > .con > .img-box-1 > img {
+  display: block;
+  width: 429px;
+  height: 563px;
+  margin-left: auto;
+  margin-right: auto;
+}
